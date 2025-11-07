@@ -33,6 +33,9 @@ wheels/
 # ChromaDB
 chroma_db/
 
+# Uploaded documents (private or large) - do not commit
+uploaded_docs/
+
 # Logs
 logs/
 *.log
