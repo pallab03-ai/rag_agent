@@ -1,0 +1,39 @@
+# Core LangChain and LangGraph
+langchain>=0.1.0
+langgraph>=0.0.40
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+langchain-groq>=0.0.1  # For Groq LLM support
+# Note: NVIDIA uses OpenAI-compatible API, so langchain-openai is sufficient
+
+# Vector Database and Embeddings
+chromadb>=0.4.22
+openai>=1.10.0
+
+# Web Search Tools
+tavily-python>=0.3.0
+duckduckgo-search>=4.0.0
+google-search-results>=2.4.2
+
+# Document Processing
+pypdf>=3.17.0
+python-docx>=1.1.0
+
+# Configuration and Environment
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# UI Framework
+streamlit>=1.29.0
+
+# Evaluation and Monitoring
+ragas>=0.1.0
+langsmith>=0.0.70
+
+# Data Processing and Utilities
+pandas>=2.0.0
+numpy>=1.24.0
+tqdm>=4.66.0
+
+# Text Processing
+tiktoken>=0.5.0

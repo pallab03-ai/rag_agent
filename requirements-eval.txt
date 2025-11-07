@@ -1,0 +1,16 @@
+# Optional packages for comprehensive evaluation
+# Install with: pip install -r requirements-eval.txt
+
+# RAGAs - RAG Assessment framework
+ragas>=0.1.0
+
+# NLP Metrics
+nltk>=3.8.1
+rouge-score>=0.1.2
+bert-score>=0.3.13
+
+# Required by RAGAs
+datasets>=2.14.0
+
+# Additional dependencies that may be needed
+scikit-learn>=1.3.0
