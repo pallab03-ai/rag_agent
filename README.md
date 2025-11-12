@@ -2,6 +2,8 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) AI Agent built with **LangGraph** that intelligently answers questions using local knowledge base with web search fallback.
 
+> 📚 **New!** Read about the [AI/ML Project Experience](AI_ML_PROJECT_EXPERIENCE.md) - a comprehensive overview of this project including challenges, solutions, outcomes, and key learnings from building a production RAG system.
+
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
@@ -466,6 +468,7 @@ New_rag_agent/
 ├── .env.example              # Environment variables template
 ├── .gitignore                # Git ignore patterns
 ├── README.md                 # This file - project documentation
+├── AI_ML_PROJECT_EXPERIENCE.md  # AI/ML project experience and learnings
 ├── ARCHITECTURE.md           # System architecture details
 ├── EVALUATION_GUIDE.md       # Evaluation metrics documentation
 ├── LANGSMITH_GUIDE.md        # LangSmith tracing setup guide
