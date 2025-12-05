@@ -2,6 +2,8 @@
 
 A production-ready Retrieval-Augmented Generation (RAG) AI Agent built with **LangGraph** that intelligently answers questions using local knowledge base with web search fallback.
 
+> 📖 **New:** Read about the [AI/ML Project Experience](PROJECT_EXPERIENCE.md) - challenges, solutions, and key takeaways from building this RAG system.
+
 ## 🚀 Quick Start Guide
 
 ### Prerequisites
@@ -466,6 +468,7 @@ New_rag_agent/
 ├── .env.example              # Environment variables template
 ├── .gitignore                # Git ignore patterns
 ├── README.md                 # This file - project documentation
+├── PROJECT_EXPERIENCE.md     # AI/ML project experience and learnings
 ├── ARCHITECTURE.md           # System architecture details
 ├── EVALUATION_GUIDE.md       # Evaluation metrics documentation
 ├── LANGSMITH_GUIDE.md        # LangSmith tracing setup guide
@@ -624,6 +627,22 @@ rmdir /s chroma_db  # Windows
 ```bash
 pip install ragas datasets
 ```
+
+## 📚 Documentation
+
+### Project Documentation
+
+- **[README.md](README.md)** - Main documentation (you are here)
+- **[PROJECT_EXPERIENCE.md](PROJECT_EXPERIENCE.md)** - 🆕 Comprehensive AI/ML project experience
+  - Detailed challenges and solutions
+  - Technical architecture deep-dive
+  - Performance metrics and outcomes
+  - Key learnings and best practices
+- **[EVALUATION_GUIDE.md](EVALUATION_GUIDE.md)** - Evaluation metrics and testing
+- **Architecture Guides** (if available):
+  - ARCHITECTURE.md - System architecture details
+  - LANGSMITH_GUIDE.md - LangSmith tracing setup
+  - PROVIDER_SETUP_GUIDE.md - Multi-provider configuration
 
 ## 📄 License
 
